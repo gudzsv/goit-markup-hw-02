@@ -1,0 +1,348 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
+  margin-inline: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header-container {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-nav-container {
+  display: flex;
+  gap: 76px;
+}
+
+/* Header Logo first part */
+.header-logo-first-part {
+  color: #4d5ae5;
+}
+
+/* Header Logo second part */
+.header-nav-container > a {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+/* Menu navigation contailner */
+.header-nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding-inline-start: 0;
+}
+
+/* Menu navigation contailner Link */
+.header-nav-list-item > a {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  position: relative;
+}
+
+.header-nav-list-item > a:hover {
+  color: #404bbf;
+}
+
+.header-nav-list-item > a:focus {
+  color: #404bbf;
+}
+
+.header-nav-list-item > a:active:after {
+  content: "";
+  position: absolute;
+  bottom: -26.5px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: #404bbf;
+}
+
+/* Contacts Info Container */
+.header-contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-inline-start: 0;
+}
+
+/* Contact Addres Link */
+.header-contacts-list-item > a {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  padding-inline: 0;
+}
+
+.header-contacts-list-item > a:hover {
+  color: #404bbf;
+}
+
+.header-contacts-list-item > a:focus {
+  color: #404bbf;
+}
+
+/* Solution Section */
+.order-section {
+  text-align: center;
+  height: 600px;
+  background-color: #2e2f42;
+}
+
+.order-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1; /* 107.143% */
+  letter-spacing: 1.12px;
+  padding-top: 188px;
+  padding-bottom: 48px;
+  margin: 0 auto;
+  width: 496px;
+}
+
+.order-button {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 16px 32px;
+  color: #fff;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border-width: inherit;
+  margin-bottom: 188px;
+}
+
+.order-button:hover {
+  background-color: #404bbf;
+}
+
+/* Stratagy */
+
+.strategy-title {
+  display: none;
+}
+
+.strategy-list-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding-inline-start: 0;
+  /* margin-bottom: 120px; */
+}
+
+.strategy-list-item {
+  width: 264px;
+  margin-block: 120px;
+}
+
+.strategy-head-title {
+  color: #2e2f42;
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.strategy-head-text {
+  /* Body */
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Team Section */
+.team-section {
+  background: #f4f4fd;
+}
+
+.team-section-title {
+  color: #2e2f42;
+  text-align: center;
+  /* Header 2 */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  padding-top: 120px;
+  margin-top: 0;
+  margin-bottom: 72px;
+}
+
+.team-section-list-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding-inline-start: 0;
+}
+
+.team-section-list {
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  margin-bottom: 120px;
+}
+
+.team-section-item-title {
+  color: #2e2f42;
+  text-align: center;
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.team-section-item-text {
+  color: #434455;
+  text-align: center;
+  /* Body */
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+/* Portfolio Section */
+.portfolio-section-container {
+  margin-bottom: 120px;
+}
+
+.portfolio-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-inline-start: 0;
+}
+
+.portfolio-section-title {
+  color: #2e2f42;
+  text-align: center;
+  /* Header 2 */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+
+.portfolio-section-list {
+  border: 1px solid #e7e9fc;
+  background-color: #fff;
+}
+
+.portfolio-section-list-title {
+  color: #2e2f42;
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  padding-inline: 16px;
+}
+
+.portfolio-section-list-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-top: 0;
+  margin-bottom: 32px;
+  padding-inline: 16px;
+}
+
+/* Footer */
+.footer-container {
+  background: #2e2f42;
+}
+
+.footer-logo-wrapper {
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+}
+
+.footer-logo-first-part {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-bottom: 17.5px;
+}
+
+.footer-logo-wrapper > a {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  width: 264px;
+  margin-top: 17.5;
+  margin-bottom: 0;
+}
