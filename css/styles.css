@@ -40,16 +40,23 @@ li {
 
 /* Header Logo first part */
 .header-logo-first-part {
-  color: #4d5ae5;
-}
-
-/* Header Logo second part */
-.header-nav-container > a {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+/* Header Logo second part */
+.header-logo-second-part {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -64,6 +71,13 @@ li {
 }
 
 /* Menu navigation contailner Link */
+.header-nav-first-list-item {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
 .header-nav-list-item > a {
   color: #2e2f42;
   font-size: 16px;
@@ -93,15 +107,18 @@ li {
 }
 
 /* Contacts Info Container */
+.header-contacts-container {
+  font-style: normal;
+}
 .header-contacts-list {
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 40px;
   padding-inline-start: 0;
 }
 
 /* Contact Addres Link */
-.header-contacts-list-item > a {
+.header-contacts-list-item {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -109,11 +126,11 @@ li {
   padding-inline: 0;
 }
 
-.header-contacts-list-item > a:hover {
+.header-contacts-list-item:hover {
   color: #404bbf;
 }
 
-.header-contacts-list-item > a:focus {
+.header-contacts-list-item:focus {
   color: #404bbf;
 }
 
@@ -129,12 +146,12 @@ li {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.1; /* 107.143% */
+  line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
   padding-top: 188px;
   padding-bottom: 48px;
   margin: 0 auto;
-  width: 496px;
+  max-width: 496px;
 }
 
 .order-button {
@@ -145,7 +162,6 @@ li {
   padding: 16px 32px;
   color: #fff;
   /* Button Text */
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -155,6 +171,9 @@ li {
 }
 
 .order-button:hover {
+  background-color: #404bbf;
+}
+.order-button:focus {
   background-color: #404bbf;
 }
 
@@ -182,7 +201,7 @@ li {
   /* Header 3 */
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
   margin-top: 0;
@@ -206,7 +225,7 @@ li {
   /* Header 2 */
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   padding-top: 120px;
@@ -321,19 +340,19 @@ li {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 17.5px;
 }
 
-.footer-logo-wrapper > a {
+.footer-logo-second-part {
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -341,8 +360,8 @@ li {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
-  width: 264px;
+  letter-spacing: 0.02em;
+  max-width: 264px;
   margin-top: 17.5;
   margin-bottom: 0;
 }
