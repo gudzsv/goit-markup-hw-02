@@ -41,7 +41,7 @@ li {
 /* Header Logo first part */
 .header-logo-first-part {
   color: #2e2f42;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -53,7 +53,7 @@ li {
 /* Header Logo second part */
 .header-logo-second-part {
   color: #2e2f42;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -329,6 +329,7 @@ li {
 /* Footer */
 .footer-container {
   background: #2e2f42;
+  /* max-width: 100%; */
 }
 
 .footer-logo-wrapper {
